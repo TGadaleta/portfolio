@@ -5,7 +5,7 @@ return (
     <>
         <div className='header'>
             <h1>Battleship</h1>
-            <h4>Written with HTML, CSS, and Javascript</h4>
+            <h4>Written 10/24 with HTML, CSS, and Javascript</h4>
         </div>
         <div className='project-container'>
             <a href='https://tony-gadaleta-battleship.netlify.app/'>
