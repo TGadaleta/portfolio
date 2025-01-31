@@ -1,5 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import NavBar from './components/NavBar/NavBar.jsx'
 import HomePage from './components/HomePage/HomePage.jsx'
 import BattleshipPage from './components/BattleshipPage/BattleshipPage.jsx'
 import NationalParkPage from './components/NationalParkPage/NationalParkPage.jsx'
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <NavBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/battleship' element={<BattleshipPage />} />

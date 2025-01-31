@@ -47,3 +47,128 @@
     color: #0056b3;
     text-decoration: underline;
 }
+.navbar {
+    background-color: #282c34;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+/* Styling for Links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #61dafb; /* React blue */
+}
+
+/* HomePage Container */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(135deg, #1e1e2e, #282c34);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent glass effect */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Title */
+.hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #61dafb; /* React Blue */
+}
+
+/* Hero Subtitle */
+.hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #e0e0e0;
+}
+
+/* Buttons Container */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button Styles */
+.hero-buttons a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Portfolio Button */
+.projects-btn {
+    background: #61dafb;
+    color: black;
+}
+
+.projects-btn:hover {
+    background: #4fc3f7;
+}
+
+/* About Me Button */
+.about-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.about-btn:hover {
+    background: white;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 28px;
+    }
+    
+    .hero-subtitle {
+        font-size: 16px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
