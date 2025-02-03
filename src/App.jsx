@@ -6,6 +6,7 @@ import BattleshipPage from './components/BattleshipPage/BattleshipPage.jsx'
 import NationalParkPage from './components/NationalParkPage/NationalParkPage.jsx'
 import BrightMindPage from './components/BrightMindPage/BrightMindPage.jsx'
 import GameCupidPage from './components/GameCupidPage/GameCupidPage.jsx'
+import ContactPage from './components/ContactPage/ContactPage.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/nptp' element={<NationalParkPage />} />
         <Route path='/brightmind' element={<BrightMindPage />} />
         <Route path='/gamecupid' element={<GameCupidPage />} />
+        <Route path='/contact' element={<ContactPage />} />
       </Routes>
     </>
   )
