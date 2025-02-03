@@ -1,3 +1,9 @@
+.body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
 /* Styling for the header section */
 .header {
     text-align: center;
@@ -155,6 +161,13 @@
 .about-btn:hover {
     background: white;
     color: black;
+}
+
+.message-container {
+    height: 10vh;
+    background: #282c34;
+    color: white;
+    text-align: center;
 }
 
 /* Responsive Design */
