@@ -12,9 +12,11 @@ const GameCupidPage = () => {
                 <a href='https://gamecupid.netlify.app/' target='_blank' rel='noopener noreferrer'>
                     <img src='../gamecupid.png' alt='gamecupid' style={{ width: '700px', height: 'auto' }} />
                 </a>
-                <h4>Meet and match with others based on your favorite video games.</h4>
-                <h4>Click the image above to view the app!</h4>
-                <a href='https://github.com/TGadaleta/GameCupid-React' target='_blank' rel='noopener noreferrer'>Github Repository</a>
+                <div className='message-container'>
+                    <h4>Meet and match with others based on your favorite video games.</h4>
+                    <h4>Click the image above to view the app!</h4>
+                    <a href='https://github.com/TGadaleta/GameCupid-React' target='_blank' rel='noopener noreferrer'>Github Repository</a>
+                </div>
             </div>
         </>
     )
