@@ -194,6 +194,7 @@
     color: #333;
     padding: 20px;
     align-self: flex-start;
+    max-width: 100vh;
 }
 
 .bio-container p {
